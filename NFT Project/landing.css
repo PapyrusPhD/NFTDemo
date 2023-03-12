@@ -1,0 +1,71 @@
+.asset-cards {
+    margin: 25px 20% 25px 20%;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    border-radius: 16px;
+}
+
+#asset-image {
+    padding: 20px;
+    background-image: url(ss/WRITING.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-radius: 16px 0 0 16px;
+    height: 280px;
+}
+
+.asset-card {
+    height: 280px;
+    border-radius: 0 16px 16px 0;
+    border: none;
+}
+
+.green {
+    list-style: none;
+}
+
+.green::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: green;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1.5em;
+    /* Also needed for space (tweak if needed) */
+}
+
+.yellow {
+    list-style: none;
+}
+
+.yellow::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #febe10;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    height: 1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+.notification-bg {
+    background: #96A886;
+    height: 28px;
+    color: white;
+    padding: 1px 0 1px 0;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}

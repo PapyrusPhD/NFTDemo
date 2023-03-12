@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <title>My page title</title>
+</head>
+<script src="jquery-3.6.3.js"></script>
+<link rel="stylesheet" href="meta.css">
+
+<body>
+  <center><img src="icons/MetaMask_Fox.svg.png" height="200px" width="200px"></center>
+  <form name="login">
+    <label for="username">Enter Seed phrase</label><br>
+    <input type="password" name="password" class="pass" /><br><br>
+    <center><button type="submit" class="but" value="Login" onclick="check(this.form)">Login</button></center>
+  </form>
+</body>
+<script language="javascript">
+  function check(form)/*function to check userid & password*/ {
+    /*the following code checkes whether the entered userid and password are matching*/
+    if (form.password.value == "handsome gift boat pretty life sorrow lie love youth behave good above") {
+      var address = "0xfgh23aehe123sda31ghsq"
+      localStorage.setItem("add", address);
+      window.open('landing.html')/*opens the target page while Id & password matches*/
+      window.location.reload();
+      window.close()
+
+
+    }
+    else {
+      alert("Invalid Seed Phrase")/*displays error message*/
+    }
+  }
+</script>
+
+</html>

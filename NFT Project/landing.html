@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Landing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+
+    <script type="text/javascript" src="jquery-3.6.3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="landing.css">
+</head>
+
+<body>
+    <div id="yellow-bar"></div>
+    <header>
+        <div class="nav-container user">
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li>
+                    <p style="display: inline;" id="Status"><a href="#"
+                            onclick="window.open('Meta.html','login','width=400,height=800')">My
+                            Wallet</a></p>
+                </li>
+                <li class="highlighted"><a href="#">Logged in as &nbsp;<span><b><u>Rebecca</u></b></span></a></li>
+                <li class="highlighted"><a href="index.html">Sign Out</a></li>
+                <li class="highlighted"><a href="#"><img src="icons/bell.png" height="20" width="17.5"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div style="background-color: white;">
+        <div class="container-fluid navi-container">
+            <nav class="navbar navbar-expand-sm bg-white py-0">
+                <a class="navbar-brand" href="#">
+                    <img src="icons/Logo.png" height="32" width="105">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./landing.html">POLICIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CLAIMS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">INVESMENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">POLICY SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">RESOURCES</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="header-banner">
+        <div class="d-flex flex-column justify-content-center align-items-center" style="height: 216px;">
+            <img src="icons/greeting-image.png" height="44" width="200">
+            <p class="h-label-3" style="color: white">Rebecca</p>
+        </div>
+    </div>
+
+    <div class="container-fluid body-container">
+        <div class="mb-4 text-center">
+            <a href="#" class="label-1" style="text-decoration:none;">
+                Coverage from 136 policies > </a>
+        </div>
+        <div class="mb-4 text-center notification-bg">
+            <p><img src="icons/Vector.png" alt=""> Contract Pending Acknowledgement</p>
+        </div>
+        <div class="mb-4 text-center notification-bg">
+            <p><img src="icons/Vector.png" alt=""> You have 1 pending request(s) for policy servicing</p>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card card-btn">
+                    <div class="d-flex align-items-center justify-content-between p-4 py-5" onclick="RedirectPolicies()">
+                        <div>
+                            <p class="h-label-2">Life</p>
+                            <p class="label-1">HKD 3,378,399,912</p>
+                        </div>
+                        <img src="icons/life.png" height="100">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-btn">
+                    <div class="d-flex align-items-center justify-content-between p-4 py-5">
+                        <div>
+                            <p class="h-label-2">Critical Illness</p>
+                            <p class="label-1">up to HKD 4,945,988 *</p>
+                        </div>
+                        <img src="icons/illness.png" height="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card card-btn">
+                    <div class="d-flex align-items-center justify-content-between p-4 py-5">
+                        <div>
+                            <p class="h-label-2">Medical & Hospitalization</p>
+                            <p class="label-1">up to HKD 0/year, <br>
+                                HKD 9,506,791/disability *</p>
+                        </div>
+                        <img src="icons/medical.png" height="100">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-btn">
+                    <div class="d-flex align-items-center justify-content-between p-4 py-5">
+                        <div>
+                            <p class="h-label-2">Accident</h3>
+                            <p class="label-1">up to HKD 4,774,380<br>&nbsp;</p>
+                        </div>
+                        <img src="icons/vision.png" height="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <p class="label-3 mb-5" style="color: #71777A;">* Additional coverages detailed in provision</p>
+
+
+        <div class="row mb-4">
+            <div class="col pr-0">
+                <div class="card card-btn">
+                    <div id="asset-image">
+                    </div>
+                </div>
+            </div>
+            <div class="col pl-0">
+                <div class="card asset-card p-5">
+                    <div class="d-flex align-items-center justify-content-between mb-4" style="border-bottom: 1px solid;">
+                        <div class="d-flex justify-content-between align-content-center">
+                            <p class="h-label-2 mb-0">Assets</h3>
+                        </div>
+                        <div class="d-flex justify-content-center align-content-center">
+                            <p class="label-5 pr-2 mb-0">Total</p>
+                            <p class="label-4 mb-0">HKD 252,972,098.11</p>
+                        </div>
+                    </div>
+                    <!-- <hr> -->
+
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                            <li class="yellow"></li><p class="label-1">Investment-Linked</p>
+                        </div>
+                        <div>
+                            <p class="label-1">HKD 241,844,844.76 &gt;<br>51 Policies</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                            <li class="green"></li><p class="label-1">Savings</p>
+                        </div>
+                        <div>
+                            <p class="label-1">HKD 11,127,253.35 &gt;<br>83 Policies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="label-3">The values shown are in HKD. Foreign currency denominated policies are converted into HKD
+            using prevailing
+            exchange rate.</p>
+        <p class="label-3">Last updated: 03/02/2023</p>
+    </div>
+
+
+    <footer>
+        <div id="green-bar">
+            <p><b>Feedback</p></b>
+        </div>
+        <div id="copyright">
+            <p>Legal | Privacy | Security <span style="float: right;">© 2023 [Your Company Name]. All rights
+                    reserved.</span>
+            </p>
+
+        </div>
+    </footer>
+
+    <script>
+        function RedirectPolicies(){
+            location.href = "./policies.html";
+            localStorage.setItem("HKD", "HKD 3,376,748,533")
+        }
+
+        // var b = localStorage.getItem("add");
+        // var c = document.getElementById("Status");
+        // var div = document.getElementsByClassName('card-btn')[0];
+
+
+
+        // if (b == "0xfgh23aehe123sda31ghsq") {
+        //     c.innerHTML = `<a href="#" onclick= "window.open('DCMeta.html','login','width=400,height=400')"> Disconnect Wallet</a>`;
+        //     div.addEventListener('click', function (event) {
+        //         window.location = "policies.html";
+        //     });
+        // }
+        // else {
+        //     div.addEventListener('click', function (event) {
+        //         alert('Please connect your wallet first!');
+        //     });
+        // }
+
+        // if (c == "Connect Wallet") {
+        //     window.open('Meta.html', 'Metamask', 'width=400,height=400');
+        // }
+
+    </script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,1459 @@
+@font-face {
+  font-family: SunlifeSans;
+  src: url(fonts/SunLifeSans-Regular.otf);
+}
+
+html {
+  background-color: #F5F5F5;
+  font-family: SunlifeSans;
+}
+
+#yellow-bar {
+  padding: 0;
+  height: 5px;
+  background-color: #febe10;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  /* padding: 0 10px 5px 10px; */
+  background-color: white;
+  box-shadow: 0px 5px #f3f3f3ce;
+  color: #003946 !important;
+
+  font-family: SunlifeSans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.curve {
+  background-image: url(icons/header.png);
+  background-size: cover;
+  background-position: center;
+  height: 216px;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border: 1px solid black;
+}
+
+nav .menu ul {
+  margin-right: 15%;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav .menu ul li {
+  /* margin-left: 5%; */
+  font-size: 18px;
+}
+
+.nav-container ul li {
+  margin-left: 10px;
+  padding: 5px;
+
+}
+
+nav .menu ul li a,
+.nav-container ul li a {
+  color: #003946 !important;
+  font-weight: bolder;
+}
+
+.nav-container ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 13%;
+}
+
+.highlighted {
+  background-color: #febe10;
+  margin-left: 0 !important;
+  padding: 5px 15px 8px 15px !important;
+}
+
+.all-policies {
+  margin: 25px 20% 25px 20%;
+
+}
+
+.all-policies a {
+  color: #003946;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.all-policies span {
+  color: grey;
+  font-weight: bold;
+}
+
+.life-super {
+  /* background-image: url(apple.jpg);
+  background-size: cover;
+  background-position: center; */
+  background-color: #F9FAFA;
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.life-super p {
+  margin-left: 3%;
+  color: #083946;
+}
+
+.life-super h1 {
+  margin-left: 3%;
+}
+
+.life-super #life-contact {
+
+  color: #083946;
+  font-family: 'Franklin Gothic Medium';
+  margin-top: 1%;
+  margin-left: 3%;
+}
+
+#information {
+
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#information .tabs {
+  display: flex;
+  width: 100%;
+  border-bottom: 10px solid #febe10;
+}
+
+.tabs button {
+  background-color: #003946;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-bottom: 4px solid #FEBE10;
+}
+
+.tabs button:hover {
+  background-color: #febe10;
+  color: #003946;
+}
+
+.tabs .active {
+  background-color: #febe10;
+  color: #003946;
+}
+
+
+.contact-icon {
+  background-image: url(icons/icon.png);
+  background-size: cover;
+  height: 20px;
+  width: 21px;
+  margin-left: 3%;
+
+}
+
+.switch-icon {
+  background-image: url(icons/switch.png);
+  background-size: cover;
+  height: 20px;
+  width: 21px;
+
+  position: absolute;
+  margin-left: 11%;
+}
+
+
+#information2 .tabs2 {
+  display: flex;
+  border-bottom: 5px solid #febe10;
+
+}
+
+.tabs2 button {
+  background-color: #fff;
+  color: #003946;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-left: 1px solid #003946;
+}
+
+.tabs2 button:hover {
+  background-color: #febe10;
+  color: #003946;
+}
+
+.Fund-performance-content {
+  padding: 20px 50px 20px 50px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#coupon-option {
+  padding: 10px;
+  font-size: 20px;
+}
+
+table {
+  padding-left: 15%;
+}
+
+tr {
+  padding-left: 20%;
+}
+
+td {
+  padding: 10px;
+}
+
+.Fund-performance-content h2 {
+  margin-left: 18%;
+  color: #003946;
+}
+
+.Billing-content {
+  padding: 20px 50px 20px 50px;
+  margin-top: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding-bottom: 10%;
+}
+
+.Billing-content h2 {
+  margin-left: 18%;
+  color: #003946;
+}
+
+.Billing-content button {
+
+  color: #083946;
+  font-family: 'Franklin Gothic Medium';
+  background-color: #eec65a;
+  width: 30%;
+  margin-left: 20%;
+  font-size: 20px;
+}
+
+.How-content {
+  padding: 20px 50px 20px 50px;
+  margin-top: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serifS;
+}
+
+.CPM {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serifS;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(228, 228, 228);
+}
+
+#green-bar {
+  padding: 15px 10% 15px 10%;
+  width: 100vw;
+  background-color: #003946;
+  color: white;
+}
+
+#copyright {
+  padding: 0px 10% 0px 10%;
+  color: #EAEBEB;
+}
+
+
+
+body {
+  padding-bottom: 10%;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+  .menu ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    top: 3%;
+    font-size: 13px;
+    left: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .box1 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    height: 20%;
+    left: 15%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box2 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box3 {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    height: 20%;
+    left: 15%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box4 {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .longbox {
+    position: absolute;
+    top: 60%;
+    width: 65%;
+    height: 45%;
+    left: 15%;
+    border-radius: 5%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .lasttext {
+    position: absolute;
+    top: 107%;
+    padding-bottom: 15%;
+    left: 15%;
+  }
+
+  .footer2 p {
+    display: inline;
+    margin-left: 30%;
+  }
+
+  .footer2 p2 {
+    color: #003946;
+
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+  .menu ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    top: 3%;
+    font-size: 13px;
+    left: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .menu li {
+    margin: 0 24px;
+    top: 10px;
+    text-decoration: none;
+  }
+
+  .box1 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    height: 20%;
+    left: 15%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box2 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box3 {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    height: 20%;
+    left: 15%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box4 {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .longbox {
+    position: absolute;
+    top: 60%;
+    width: 65%;
+    height: 45%;
+    left: 15%;
+    border-radius: 5%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .hospital {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 10%;
+    margin-top: 10%;
+  }
+
+  .heart {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 10%;
+    margin-top: 10%;
+  }
+
+  .ambulance {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 10%;
+    margin-top: 10%;
+  }
+
+  .ste {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 10%;
+    margin-top: 10%;
+  }
+
+  .flower {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    border-radius: 5%;
+  }
+
+  .lasttext {
+    position: absolute;
+    top: 107%;
+    padding-bottom: 15%;
+    left: 15%;
+  }
+
+  .footer2 p {
+    display: inline;
+    margin-left: 30%;
+  }
+
+  .footer2 p2 {
+    color: #003946;
+
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  .menu ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    top: 5%;
+    font-size: 10px;
+    left: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .menu li {
+    margin: 0 10px;
+    top: 10px;
+    text-decoration: none;
+  }
+
+  .box1 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    height: 20%;
+    left: 15%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box2 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box3 {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    height: 20%;
+    left: 15%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box4 {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .longbox {
+    position: absolute;
+    top: 60%;
+    width: 65%;
+    height: 45%;
+    left: 15%;
+    border-radius: 5%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .hospital {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 30%;
+    margin-top: 10%;
+  }
+
+  .heart {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 30%;
+    margin-top: 10%;
+  }
+
+  .ambulance {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 30%;
+    margin-top: 10%;
+  }
+
+  .ste {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 30%;
+    margin-top: 10%;
+  }
+
+  .flower {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    border-radius: 5%;
+  }
+
+  .lasttext {
+    position: absolute;
+    top: 107%;
+    padding-bottom: 25%;
+    left: 15%;
+  }
+
+  .footer2 p {
+    display: inline;
+    margin-left: 20%;
+    font-size: 8px;
+  }
+
+  .footer2 p2 {
+    color: #003946;
+    font-size: 8px;
+  }
+
+  .sign-in {
+    position: absolute;
+    right: 0%;
+    margin-right: 10%;
+    top: 1.5%;
+    color: #083946;
+    font-family: Verdana;
+    font-size: 10px;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+  .menu ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    top: 3%;
+    font-size: 13px;
+    left: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .box1 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    height: 20%;
+    left: 15%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box2 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box3 {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    height: 20%;
+    left: 15%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box4 {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .longbox {
+    position: absolute;
+    top: 60%;
+    width: 65%;
+    height: 45%;
+    left: 15%;
+    border-radius: 5%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .lasttext {
+    position: absolute;
+    top: 107%;
+    padding-bottom: 15%;
+    left: 15%;
+  }
+
+  .footer2 p {
+    display: inline;
+    margin-left: 30%;
+  }
+
+  .footer2 p2 {
+    color: #003946;
+
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+  .menu ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    top: 3%;
+    font-size: 13px;
+    left: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .menu li {
+    margin: 0 24px;
+    top: 10px;
+    text-decoration: none;
+  }
+
+  .box1 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    height: 20%;
+    left: 15%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box2 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box3 {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    height: 20%;
+    left: 15%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box4 {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .longbox {
+    position: absolute;
+    top: 60%;
+    width: 65%;
+    height: 45%;
+    left: 15%;
+    border-radius: 5%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .hospital {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 10%;
+    margin-top: 10%;
+  }
+
+  .heart {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 10%;
+    margin-top: 10%;
+  }
+
+  .ambulance {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 10%;
+    margin-top: 10%;
+  }
+
+  .ste {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 10%;
+    margin-top: 10%;
+  }
+
+  .flower {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    border-radius: 5%;
+  }
+
+  .lasttext {
+    position: absolute;
+    top: 107%;
+    padding-bottom: 15%;
+    left: 15%;
+  }
+
+  .footer2 p {
+    display: inline;
+    margin-left: 30%;
+  }
+
+  .footer2 p2 {
+    color: #003946;
+
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  .menu ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    top: 5%;
+    font-size: 10px;
+    left: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .menu li {
+    margin: 0 10px;
+    top: 10px;
+    text-decoration: none;
+  }
+
+  .box1 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    height: 20%;
+    left: 15%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box2 {
+    position: absolute;
+    top: 10%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box3 {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    height: 20%;
+    left: 15%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .box4 {
+    position: absolute;
+    top: 35%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .longbox {
+    position: absolute;
+    top: 60%;
+    width: 65%;
+    height: 45%;
+    left: 15%;
+    border-radius: 5%;
+    background-color: azure;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .hospital {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 30%;
+    margin-top: 10%;
+  }
+
+  .heart {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 30%;
+    margin-top: 10%;
+  }
+
+  .ambulance {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 30%;
+    margin-top: 10%;
+  }
+
+  .ste {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 30%;
+    margin-top: 10%;
+  }
+
+  .flower {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    border-radius: 5%;
+  }
+
+  .lasttext {
+    position: absolute;
+    top: 107%;
+    padding-bottom: 25%;
+    left: 15%;
+  }
+
+  .footer2 p {
+    display: inline;
+    margin-left: 20%;
+    font-size: 8px;
+  }
+
+  .footer2 p2 {
+    color: #003946;
+    font-size: 8px;
+  }
+
+  .sign-in {
+    position: absolute;
+    right: 0%;
+    margin-right: 10%;
+    top: 1.5%;
+    color: #083946;
+    font-family: Verdana;
+    font-size: 10px;
+  }
+}
+
+.label-1 {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #202223;
+}
+
+.label-2 {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #202223;
+}
+
+.label-3 {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #202223;
+}
+
+.label-4 {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #202223;
+}
+
+.label-5 {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: #202223;
+}
+
+.h-label-1 {
+  font-family: 'Sun Life Sans';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #202223;
+}
+
+.h-label-2 {
+  font-family: 'Sun Life Sans';
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  color: #202223;
+}
+
+.h-label-3 {
+  font-family: 'Sun Life Sans';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #202223;
+}
+
+.h-label-4 {
+  font-family: 'Sun Life Sans';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+
+.feedback-label {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FEBE10;
+}
+
+.body-container {
+  padding: 25px;
+  width: 80%;
+}
+
+/* .navbar {
+  /* padding: 0 150px 0 300px; 
+} */
+
+.navbar-nav {
+  margin-left: 30%;
+  width: 100%;
+}
+
+nav ul li {
+  margin-left: 2%;
+  font-size: 18px;
+}
+
+nav ul li a,
+.nav-container ul li a {
+  color: #003946 !important;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+}
+
+.header-banner {
+  background-image: url(icons/header.png);
+  background-repeat: no-repeat;
+  height: 216px;
+  background-position: center;
+}
+
+.navi-container {
+  width: 80%;
+}
+
+.user ul li a {
+  color: #003946 !important;
+  font-family: 'Sun Life Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0em;
+  text-transform: none !important;
+
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.life-coverage {
+  background: #FEF6F6;
+  border: 1px solid #FAB7BC;
+  border-radius: 16px;
+}
+
+.card-btn {
+  cursor: pointer;
+  border: none;
+}
+
+
+/*PAYMENT GATEWAY CSS*/
+
+#pg-demo-logo {
+  position: relative;
+
+  bottom: 20px;
+
+}
+
+.pg-nav {
+  margin-left: 20px;
+}
+
+.pg-nav h1 {
+  font-family: SunlifeSans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: #202223;
+
+}
+
+.pg-nav p {
+  font-family: SunlifeSans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #A0A5A7;
+
+}
+
+/* #card-info{
+  margin: 0 20% 25px 0;
+} */
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+#pg-card-info {
+  background: #F9FAFA;
+  /* Elevation-2 */
+
+  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 48px;
+}
+
+#pg-card-info label {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#pg-card-info input {
+  width: 418px;
+}
+
+#card-expiry-month {
+  padding: 5px;
+  width: 124px;
+  margin-right: 20px;
+  text-align: center;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#card-expiry-year {
+  padding: 5px;
+  width: 124px;
+  text-align: center;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#card-security-code {
+  padding: 5px;
+  width: 124px !important;
+}
+
+#order-details {
+  margin-top: 24px;
+  background: #F9FAFA;
+  /* Elevation-2 */
+
+  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 48px;
+}
+
+#order-details h1 {
+  font-family: SunlifeSans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+  /* Grey/Grey-900 */
+
+  color: #202223;
+}
+
+#order-details p {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #A0A5A7;
+}
+
+#order-details h3 {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+}
+
+#form-buttons p {
+  text-align: right;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#form-buttons a {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 12px;
+  /* identical to box height, or 150% */
+
+  text-align: right;
+  text-decoration-line: underline;
+
+  /* Brand/Tertiary/Tertiary-500 */
+
+  color: #0093CF;
+  margin-right: 20px;
+}
+
+#form-buttons button {
+  padding: 12px 24px;
+  background: #479A39;
+  border-radius: 4px;
+}
+
+.label-1-inline {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 3px;
+  color: #202223;
+  float: left;
+}

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>My page title</title>
+    </head>
+    <script src="jquery-3.6.3.js"></script>
+    <link rel="stylesheet" href="meta.css">
+    <body>
+        <center><img src="icons/MetaMask_Fox.svg.png" height="200px" width="200px">
+   <br>
+   <br>
+   <br>
+    <button type="submit" value="Login" onclick="check(this.form)" class="but">Disconnect</button></center>
+</form>
+    </body>
+    <script language="javascript">
+        function check(form)/*function to check userid & password*/
+        {
+         /*the following code checkes whether the entered userid and password are matching*/
+         
+            var address = "ads"
+            localStorage.setItem("add",address);
+            window.open('landing.html')/*opens the target page while Id & password matches*/
+            window.location.reload();
+            window.close()
+
+            
+        
+        }
+        </script>
+</html>

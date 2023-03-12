@@ -1,0 +1,18 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.card {
+    border-radius: 16px;
+}
+
+.life-coverage {
+    background: #FEF6F6;
+    border: 1px solid #FAB7BC;
+    border-radius: 16px;
+}
+
+.card-btn {
+    cursor: pointer;
+    border: none;
+}

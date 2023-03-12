@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+
+        
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="policies.css">
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+
+    <script type="text/javascript" src="jquery-3.6.3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <title>Policies</title>
+</head>
+
+<body>
+    <div id="yellow-bar"></div>
+    <header>
+        <div class="nav-container user">
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li>
+                    <p style="display: inline;" id="Status"><a href="#"
+                            onclick="window.open('Meta.html','login','width=400,height=800')">My
+                            Wallet</a></p>
+                </li>
+                <li class="highlighted"><a href="#">Logged in as &nbsp;<span><b><u>Rebecca</u></b></span></a></li>
+                <li class="highlighted"><a href="index.html">Sign Out</a></li>
+                <li class="highlighted"><a href="#"><img src="icons/bell.png" height="20" width="17.5"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div style="background-color: white;">
+        <div class="container-fluid navi-container">
+            <nav class="navbar navbar-expand-sm bg-white py-0">
+                <a class="navbar-brand" href="#">
+                    <img src="icons/Logo.png" height="32" width="105">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./landing.html">POLICIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CLAIMS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">INVESMENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">POLICY SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">RESOURCES</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="header-banner">
+        <div class="d-flex flex-column justify-content-center align-items-center" style="height: 216px;">
+            <img src="icons/greeting-image.png" height="44" width="200">
+            <p class="h-label-3" style="color: white">Rebecca</p>
+        </div>
+    </div>
+
+    <div class="container-fluid body-container">
+        <div class="mb-4">
+            <a href="./landing.html" class="label-1" style="text-decoration:none;">
+                Back to Home </a>
+        </div>
+        <div class="card life-coverage mb-4">
+            <div class="d-flex align-items-center p-4 py-5">
+                <img src="icons/life.png" class="mr-4" width="144" height="100">
+                <div>
+                    <p class="label-1 mb-0">Total Life Coverage from 133 policies*</p>
+                    <p class="h-label-1" id="hkd"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card card-btn active">
+                    <div class="d-flex align-items-center justify-content-between p-4 py-5" onclick="PolicyDetails()">
+                        <div>
+                            <p class="h-label-2">Life Super Plus 20</p>
+                            <p class="label-1">Policy No. 1ECONFA14</p>
+                            <p class="label-3"><span style="color: #A0A5A7;">Amount Benefit:</span> HKD 936,418.35</p>
+                        </div>
+                        <img src="icons/life-super-plus.png" height="100">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-btn">
+                    <div class="d-flex align-items-center justify-content-between p-4 py-5">
+                        <div>
+                            <p class="h-label-2">Foresight Deferred Annuity Plan 10</p>
+                            <p class="label-1">Policy No. 1ECONFA58</p>
+                            <p class="label-3"><span style="color: #A0A5A7;">Amount Benefit:</span> Unavailable</p>
+                        </div>
+                        <img src="icons/foresight-plan.png" height="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card card-btn">
+                    <div class="d-flex align-items-center justify-content-between p-4 py-5">
+                        <div>
+                            <p class="h-label-2">Vision (2-Year Pay)</p>
+                            <p class="label-1">Policy No. 1ECONFA57</p>
+                            <p class="label-3"><span style="color: #A0A5A7;">Amount Benefit:</span> Unavailable</p>
+                        </div>
+                        <img src="icons/vision.png" height="100">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-btn">
+                    <div class="d-flex align-items-center justify-content-between p-4 py-5">
+                        <div>
+                            <p class="h-label-2">Commitment</p>
+                            <p class="label-1">Policy No. 1ECONFA52</p>
+                            <p class="label-3"><span style="color: #A0A5A7;">Amount Benefit:</span> HKD 1,250.00</p>
+                        </div>
+                        <img src="icons/commitment.png" height="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card card-btn">
+                    <div class="d-flex align-items-center justify-content-between p-4 py-5">
+                        <div>
+                            <p class="h-label-2">Life Architect 5</p>
+                            <p class="label-1">Policy No. 1ECONAW16</p>
+                            <p class="label-3"><span style="color: #A0A5A7;">Amount Benefit:</span> Unavailable</p>
+                        </div>
+                        <img src="icons/life-architect.png" height="100">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-btn">
+                    <div class="d-flex align-items-center justify-content-between p-4 py-5">
+                        <div>
+                            <p class="h-label-2">Life Promise Income Plan 15</p>
+                            <p class="label-1">Policy No. 1ECONFA99</p>
+                            <p class="label-3"><span style="color: #A0A5A7;">Amount Benefit:</span> HKD 98,518.61</p>
+                        </div>
+                        <img src="icons/life-promise.png" height="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="label-3" style="color: #71777A;">Foreign denominated policies are converted into HKD using prevailing
+            exchange rate. *Excluding pending fund transactions </p>
+    </div>
+
+    <footer>
+        <div id="green-bar">
+            <div class="d-flex justify-content-between">
+                <p class="label-1 mb-0" style="color: white;">Experience the future with our cutting-edge solutions.</p>
+                <p class="feedback-label mb-0">Feedback</p>
+            </div>
+        </div>
+        <div id="copyright">
+            <div class="d-flex justify-content-between py-3">
+                <p class="label-2 mb-0" style="color: #004570">Legal | Privacy | Security</p>
+                <p class="label-2 mb-0" style="color: #A0A5A7"> © 2022 Demo. All rights reserved. | Ver. 1.0.0</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function PolicyDetails(){
+            location.href = "./policy-details.html";
+            localStorage.setItem("category", "Life Super Plus 20");
+            localStorage.setItem("policyNumber", "1ECONFA14")
+        }
+        document.getElementById("hkd").innerHTML = localStorage.getItem("HKD");
+        
+        // var b = localStorage.getItem("add");
+        // var c = document.getElementById("Status");
+        // var lifeSuperPlus = document.getElementsByClassName('card-btn')[0];
+
+        // if (b == "0xfgh23aehe123sda31ghsq") {
+        //     c.innerHTML = `<a href="#" onclick= "window.open('DCMeta.html','login','width=400,height=400')"> Disconnect Wallet</a>`;
+        //     lifeSuperPlus.addEventListener('click', function (event) {
+        //         window.location = "policy-details.html";
+        //     });
+        // }
+        // else {
+        //     lifeSuperPlus.addEventListener('click', function (event) {
+        //         alert('Please connect your wallet first!');
+        //     });
+        // }
+
+        // if (c == "Connect Wallet") {
+        //     window.open('Meta.html', 'Metamask', 'width=400,height=400');
+        // }
+    </script>
+</body>
+
+</html>

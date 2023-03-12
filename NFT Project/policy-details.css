@@ -1,0 +1,70 @@
+.card {
+    border-radius: 16px;
+}
+
+.life-super-card {
+    border: 1px solid #DCDEDF;
+    border-radius: 16px;
+}
+
+.vertical-line {
+    width: 24px;
+    height: 0px;
+
+    border: 1px solid #A0A5A7;
+    transform: rotate(90deg);
+}
+
+.card-btn {
+    cursor: pointer;
+    border: 1px solid #C3C8CB;
+}
+
+.active {
+    cursor: pointer;
+    background: #E1F8FF;
+    border: 1px solid #007EB8;
+}
+
+.active-label {
+    color: #007EB8;
+}
+
+.tab-section {
+    background-color: white;
+}
+
+.ffNoto {
+    font-family: 'Noto Sans' !important;
+}
+
+.ffSun {
+    font-family: 'Sun Life Sans' !important;
+}
+
+.fw400 {
+    font-weight: 400 !important;
+}
+
+.fw500 {
+    font-weight: 500 !important;
+}
+
+.fw700 {
+    font-weight: 700 !important;
+}
+
+.total-card {
+    background: #F4F4F5;
+    border-radius: 4px;
+    width: 100%;
+    border: none;
+}
+
+.btn-confirm {
+    background: #FFCB05;
+}
+
+.btn-confirm:disabled {
+    background: #EAEBEB;
+}
