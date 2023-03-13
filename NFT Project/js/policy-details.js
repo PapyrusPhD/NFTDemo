@@ -73,8 +73,9 @@ function showPaymentOption() {
   $(paymentOptions).toggle("slow");
 }
 
-function selectPaymentOption() {
+function selectPaymentOptionOne() {
   var paymentOptions = document.getElementById('visa-mastercard');
+  var anotherPaymentOption = document.getElementById('UnionPay');
   var confirmBtn = document.getElementById('confirmBtn');
 
   if(paymentOptions.classList.contains('active')){
@@ -82,6 +83,22 @@ function selectPaymentOption() {
     $(confirmBtn).prop('disabled', true)
   } else {
     paymentOptions.classList.add('active');
+    anotherPaymentOption.classList.remove('active')
+    $(confirmBtn).prop('disabled', false)
+  }
+}
+
+function selectPaymentOptionTwo() {
+  var paymentOptions = document.getElementById('UnionPay');
+  var anotherPaymentOption = document.getElementById('visa-mastercard');
+  var confirmBtn = document.getElementById('confirmBtn');
+
+  if(paymentOptions.classList.contains('active')){
+    paymentOptions.classList.remove('active');
+    $(confirmBtn).prop('disabled', true)
+  } else {
+    paymentOptions.classList.add('active');
+    anotherPaymentOption.classList.remove('active')
     $(confirmBtn).prop('disabled', false)
   }
 }

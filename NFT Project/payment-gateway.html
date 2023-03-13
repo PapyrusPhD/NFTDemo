@@ -63,8 +63,8 @@
                                     <input type="text" class="form-control" id="card-number" name="card-number">
                                 </div>
                                 <div class="form-group">
-                                    <img src="icons/visa.png" alt="">
-                                    <img src="icons/master.png" alt="">
+                                    <img src="" alt="" id="bannerImg1">
+                                    <img src="" alt="" id="bannerImg2">
                                 </div>
                                 <div class="form-inline">
                                     <label for="card-expiry-month">Expiry month <span class="red">&emsp;*</span></label>
@@ -124,12 +124,17 @@
                         </form>
                     </div>
 
-                
             </div>
         </div>
     </div>
 
     <script>
+        var imgData1 = localStorage.getItem("imgData1");
+        var imgData2 = localStorage.getItem("imgData2");
+        bannerImg1 = document.getElementById("bannerImg1")
+        bannerImg2 = document.getElementById("bannerImg2")
+        bannerImg1.src = imgData1;
+        bannerImg2.src = imgData2;
         document.getElementById("discount").innerHTML = localStorage.getItem("discountDisplay");
     </script>
 </body>

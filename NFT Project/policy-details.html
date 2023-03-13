@@ -245,14 +245,24 @@
                     </div>
                 </div>
 
-                <div id="paymentOptions" class="card total-card p-3 mb-4" style="display: none;">
-                    <div class="col-4">
-                        <div id="visa-mastercard" class="card card-btn p-4" onclick="selectPaymentOption()">
+                <div id="paymentOptions" class="total-card p-3 mb-4 row" style="display: none;">
+                    <div class="col-4" onclick="VisaMastercard()">
+                        <div id="visa-mastercard" class="card card-btn p-4" onclick="selectPaymentOptionOne()">
                             <div class="d-flex align-items-center justify-content-between">
                                 <p class="label-1 mb-0">Visa/Master</p>
                                 <div>
-                                    <img src="icons/visa.png" height="32" width="86.26">
-                                    <img src="icons/master-card.png" height="32" width="39.68">
+                                    <img id="visaImage" src="icons/visa.png" height="32" width="86.26">
+                                    <img id="masterImage" src="icons/master-card.png" height="32" width="39.68">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" onclick="UnionPay()">
+                        <div id="UnionPay" class="card card-btn p-4" onclick="selectPaymentOptionTwo()">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <p class="label-1 mb-0">UnionPay</p>
+                                <div>
+                                    <img src="icons/UnionPay.png" height="32">
                                 </div>
                             </div>
                         </div>
@@ -323,6 +333,17 @@
             localStorage.setItem("discountDisplay", displayTotal);
             localStorage.setItem("paymentReceived", receivedPayment);
         }
+        
+        function VisaMastercard(){
+            localStorage.setItem("imgData1", "icons/visa.png");
+            localStorage.setItem("imgData2", "icons/master-card.png");
+        }
+
+        function UnionPay(){
+            localStorage.setItem("imgData1", "icons/UnionPay.png");
+            localStorage.setItem("imgData2", null);
+        }
+
         document.getElementById("policyNumber").innerHTML = localStorage.getItem("policyNumber");
     </script>
 </body>
